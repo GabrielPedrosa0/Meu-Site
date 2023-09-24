@@ -6,10 +6,40 @@
     padding: 0px;
 }
 
+body {
+    background-image: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+}
 
+main {
+    padding: 20px 10px;
+    height : auto;
+    margin:auto;
+    box-shadow: inset;
+}
 
-.meu nome {
+h1 {
     font-family:'Yaahowu', sans-serif ;
     text-align: center;
     color:#2196F3;
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+div#q1 {
+    background-color: skyblue;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow ,red );
+}
+
+div#q3 {
+    background-image: url();
 }
