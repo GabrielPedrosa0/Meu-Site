@@ -6,3 +6,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url(Sem\ título.png);
+}
+
+
+h1 {
+    font-family:'YaaHowu';
+    color: aqua;
+    text-align: center;
+}
