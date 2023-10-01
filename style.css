@@ -8,7 +8,15 @@
 }
 
 body {
-    background-image: url(Sem\ título.png);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(Sem\ título.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -16,4 +24,8 @@ h1 {
     font-family:'YaaHowu';
     color: aqua;
     text-align: center;
+}
+
+p {
+    text-align: justify;
 }
