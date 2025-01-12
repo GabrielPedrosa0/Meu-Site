@@ -50,6 +50,7 @@ p{
 }
 
 main{
+    border: 2px solid;
     display: flex;
     padding: 5px;
 }
@@ -72,11 +73,31 @@ main{
 }
 
 aside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+}
+
+.card {
+    border: 2px solid red;
+    width: 350px;
     height: 350px;
 }
 
+.card-img{
+    background-color: #0F0F0F;
+    margin: 5px;
+    height: 200px;
+}
 
+.text-card {
+    border: 2px solid purple;
+    height: 70px;
+    margin: 5px;
+}
 
 footer {
     border: 2px solid red;
+    margin-top: 50px;
 }
