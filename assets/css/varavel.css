@@ -1,0 +1,12 @@
+:root{
+    --header-destaque: #68CEAB;
+    --titulo-destaque: #73CB64;
+}
+
+.logo-link a {
+    color: var(--header-destaque);
+}
+
+h1{
+    color: var(--titulo-destaque);
+}
