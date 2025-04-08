@@ -1,0 +1,36 @@
+header > .logo-link{
+    border: 1px solid salmon;
+    width: auto;
+    font-size: 45px;
+}
+
+@media(max-width: 768px){
+    header > .logo-link{
+        font-size: 35px;
+    }    
+}
+
+@media(max-width: 480px){
+    header > .logo-link{
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 480px) {
+    .tecnologias img{
+        width: 50px;
+    }
+}
+
+@media(max-width: 480px) {
+    .tecnologias{
+        gap: 3px;
+    }
+}
+
+@media(max-width: 480px) {
+    .cv-download button{
+        flex-direction: column;
+    }
+}
+
